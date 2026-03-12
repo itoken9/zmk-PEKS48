@@ -52,10 +52,10 @@
 
         layer_1 {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8          &kp NUMBER_9           &kp NUMBER_0       &trans
-&trans  &trans        &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &trans          &kp MINUS      &kp EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH      &kp JP_UNDERSCORE
-&trans  &trans        &trans        &kp JP_LPAREN    &kp JP_RPAREN    &trans          &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &trans
-&trans  &trans        &trans        &trans           &trans           &trans          &trans         &kp NUMBER_0   &kp JP_DQUOTE         &trans                 &trans             &trans
+&kp TAB           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8          &kp NUMBER_9           &kp NUMBER_0       &trans
+&kp LEFT_CONTROL  &trans        &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &trans          &kp MINUS      &kp EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH      &kp JP_UNDERSCORE
+&kp LEFT_SHIFT    &trans        &trans        &kp JP_LPAREN    &kp JP_RPAREN    &trans          &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &trans
+&trans            &trans        &trans        &trans           &trans           &trans          &trans         &kp NUMBER_0   &kp JP_DQUOTE         &trans                 &trans             &trans
             >;
         };
 
